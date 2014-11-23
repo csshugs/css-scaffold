@@ -63,20 +63,11 @@
 
 
 // /*------------------------------------*\
-//     #LAYOUT
-// \*------------------------------------*/
-@import "ui/layout/*.*";
-
-
-
-
-
-// /*------------------------------------*\
 //     #OBJECTS
 // \*------------------------------------*/
 @import "genesis-icon/_objects.icon";
-@import "genesis-text-input/_objects.text-input";
 @import "genesis-page-wrap/_objects.page-wrap";
+@import "genesis-text-input/_objects.text-input";
 @import "inuit-block/_objects.block";
 @import "inuit-box/_objects.box";
 @import "inuit-buttons/_objects.buttons";
