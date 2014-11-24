@@ -12,7 +12,7 @@ $grey--dark:                    #333;
 
 // Semantic color vars.
 $brand-color:                   $blue--light;
-$base-ui-color:                 $grey--dark;
+$ui-color:                      $grey--dark;
 
 
 
@@ -20,4 +20,4 @@ $base-ui-color:                 $grey--dark;
 
 // Selection.
 $selection-background-color:    $brand-color;
-$selection-text-color:          $base-ui-color;
+$selection-text-color:          $ui-color;
