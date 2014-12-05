@@ -58,13 +58,11 @@
 // /*------------------------------------*\
 //     #OBJECTS
 // \*------------------------------------*/
-@import "genesis-icon/_objects.icon";
-@import "genesis-page-wrap/_objects.page-wrap";
-@import "genesis-text-input/_objects.text-input";
 @import "inuit-block/_objects.block";
 @import "inuit-box/_objects.box";
 @import "inuit-buttons/_objects.buttons";
 @import "inuit-flag/_objects.flag";
+@import "inuit-icon/_objects.icon";
 @import "inuit-layout/_objects.layout";
 @import "inuit-list-bare/_objects.list-bare";
 @import "inuit-list-block/_objects.list-block";
@@ -72,8 +70,10 @@
 @import "inuit-list-ui/_objects.list-ui";
 @import "inuit-media/_objects.media";
 @import "inuit-pack/_objects.pack";
+@import "inuit-page-wrap/_objects.page-wrap";
 @import "inuit-tables/_objects.tables";
 @import "inuit-tabs/_objects.tabs";
+@import "inuit-text-input/_objects.text-input";
 @import "ui/objects/*.*";
 
 
@@ -116,7 +116,7 @@
 @import "inuit-spacing/_trumps.spacing";
 @import "inuit-spacing-responsive/_trumps.spacing-responsive";
 @import "inuit-print/_trumps.print";
-@import "genesis-helper/_trumps.helper";
+@import "inuit-helper/_trumps.helper";
 @import "ui/trumps/*.*";
 
 
