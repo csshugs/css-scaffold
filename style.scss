@@ -9,7 +9,9 @@
 // /*------------------------------------*\
 //     #SETTINGS
 // \*------------------------------------*/
-@import "ui/settings/*.*";
+@import "ui/settings/_colors";
+@import "ui/settings/_typography";
+
 @import "inuit-defaults/_settings.defaults";
 @import "inuit-responsive-settings/_settings.responsive";
 
