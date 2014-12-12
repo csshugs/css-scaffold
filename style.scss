@@ -46,6 +46,7 @@
 // \*------------------------------------*/
 @import "inuit-page/_base.page";
 @import "inuit-headings/_base.headings";
+@import "inuit-responsive-headings/_base.headings-responsive";
 @import "inuit-paragraphs/_base.paragraphs";
 @import "inuit-lists/_base.lists";
 @import "inuit-images/_base.images";
@@ -113,10 +114,20 @@
 @import "inuit-clearfix/_trumps.clearfix";
 @import "inuit-widths/_trumps.widths";
 @import "inuit-widths-responsive/_trumps.widths-responsive";
+@import "inuit-pull/_trumps.pull";
+@import "inuit-responsive-pull/_trumps.pull-responsive";
+@import "inuit-push/_trumps.push";
+@import "inuit-responsive-push/_trumps.push-responsive";
 @import "inuit-spacing/_trumps.spacing";
 @import "inuit-spacing-responsive/_trumps.spacing-responsive";
 @import "inuit-print/_trumps.print";
-@import "inuit-helper/_trumps.helper";
+@import "inuit-float/_trumps.helper.float";
+@import "inuit-responsive-float/_trumps.helper.float-responsive";
+@import "inuit-font-weight/_trumps.helper.font-weight";
+@import "inuit-responsive-font-weight/_trumps.helper.font-weight-responsive";
+@import "inuit-text-align/_trumps.helper.text-align";
+@import "inuit-responsive-text-align/_trumps.helper.text-align-responsive";
+@import "inuit-hide/_trumps.hide";
 @import "ui/trumps/*.*";
 
 
