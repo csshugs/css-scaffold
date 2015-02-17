@@ -1,3 +1,47 @@
 /*------------------------------------*\
-    #COLORS
+   #COLORS
 \*------------------------------------*/
+
+// Colors map.
+// Insert colors here, you wish to have a background-color
+// and text-color utility class for.
+$colors: (
+    brand:       $blue--light,
+    ui:          $grey--dark
+);
+
+
+
+
+
+/**
+ * Background colors.
+ */
+@each $color in $colors {
+
+    $color-name:  nth($color, 1);
+    $color-value: nth($color, 2);
+
+    .bg--#{$color-name} {
+        background-color: #{$color-value};
+    }
+
+}
+
+
+
+
+
+/**
+ * Text colors.
+ */
+@each $color in $colors {
+
+    $color-name:  nth($color, 1);
+    $color-value: nth($color, 2);
+
+    .text--#{$color-name} {
+        color: #{$color-value};
+    }
+
+}
