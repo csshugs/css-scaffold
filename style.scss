@@ -9,8 +9,8 @@
 // /*------------------------------------*\
 //     #SETTINGS
 // \*------------------------------------*/
-@import "ui/settings/_colors";
-@import "ui/settings/_typography";
+@import "settings/_colors";
+@import "settings/_typography";
 
 @import "inuit-defaults/_settings.defaults";
 @import "inuit-responsive-settings/_settings.responsive";
@@ -22,7 +22,7 @@
 // /*------------------------------------*\
 //     #TOOLS
 // \*------------------------------------*/
-@import "ui/tools/*.*";
+@import "tools/*.*";
 @import "inuit-functions/_tools.functions";
 @import "inuit-mixins/_tools.mixins";
 @import "inuit-responsive-tools/_tools.responsive";
@@ -51,7 +51,7 @@
 @import "inuit-paragraphs/_base.paragraphs";
 @import "inuit-lists/_base.lists";
 @import "inuit-images/_base.images";
-@import "ui/base/*.*";
+@import "base/*.*";
 
 
 
@@ -76,7 +76,7 @@
 // @import "inuit-tables/_objects.tables";
 // @import "inuit-tabs/_objects.tabs";
 // @import "inuit-text-input/_objects.text-input";
-@import "ui/objects/*.*";
+@import "objects/*.*";
 
 
 
@@ -85,16 +85,7 @@
 // /*------------------------------------*\
 //     #COMPONENTS
 // \*------------------------------------*/
-@import "ui/components/*.*";
-
-
-
-
-
-// /*------------------------------------*\
-//     #THEME
-// \*------------------------------------*/
-@import "ui/theme/*.*";
+@import "components/*.*";
 
 
 
@@ -103,7 +94,7 @@
 // /*------------------------------------*\
 //     #PLUGINS
 // \*------------------------------------*/
-@import "ui/plugins/*.*";
+@import "plugins/*.*";
 
 
 
@@ -131,10 +122,10 @@
 // @import "inuit-responsive-text-align/_trumps.helper.text-align-responsive";
 // @import "inuit-hide/_trumps.hide";
 @import "inuit-print/_trumps.print";
-@import "ui/trumps/*.*";
+@import "trumps/*.*";
 
 
 
 
 
-@import "ui/shame";
+@import "shame";
