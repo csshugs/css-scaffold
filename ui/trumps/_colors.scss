@@ -4,10 +4,10 @@
 
 // Colors map.
 // Insert colors here, you wish to have a background-color
-// and text-color utility class for.
+// and text-color utility-class for.
 $colors: (
-    brand:       $blue--light,
-    ui:          $grey--dark
+    brand:       $color-brand,
+    ui:          $color-ui
 );
 
 
@@ -22,7 +22,7 @@ $colors: (
     $color-name:  nth($color, 1);
     $color-value: nth($color, 2);
 
-    .bg--#{$color-name} {
+    .u-bg-#{$color-name} {
         background-color: #{$color-value};
     }
 
@@ -40,7 +40,7 @@ $colors: (
     $color-name:  nth($color, 1);
     $color-value: nth($color, 2);
 
-    .text--#{$color-name} {
+    .u-text-#{$color-name} {
         color: #{$color-value};
     }
 

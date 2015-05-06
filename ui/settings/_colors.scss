@@ -2,22 +2,16 @@
 //    #COLORS
 //\*------------------------------------*/
 
-// Unsemantic color vars.
-$blue--light:                   #8ee2ff;
-$grey--dark:                    #333;
-
-
-
-
-
 // Semantic color vars.
-$brand-color:                   $blue--light;
-$ui-color:                      $grey--dark;
+// Do not use these in your codebase! Reassign them to more abstract,
+// reusable variables below.
+$blue-light:                    #8ee2ff;
+$grey-dark:                     #333;
 
 
 
 
 
-// Selection.
-$selection-background-color:    $brand-color;
-$selection-text-color:          $ui-color;
+// Abstract, reusable color vars.
+$color-brand:                   $blue-light;
+$color-ui:                      $grey-dark;
