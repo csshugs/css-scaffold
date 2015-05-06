@@ -5,4 +5,4 @@ You can put this into your project as a [git submodule](http://git-scm.com/book/
 
 ###Prerequisities
 - [sass-globbing](https://github.com/chriseppstein/sass-globbing)
-- inuitcss' framework repositories have to be downloaded manually. [Bower](http://bower.io/) is to be favoured for managing this. [Here](https://github.com/TryGenesis/genesis/blob/master/bower.json) you'll find an example.
+- inuitcss' framework repositories have to be downloaded manually. [Bower](http://bower.io/) is to be favoured for managing this. [Here](https://github.com/csshugs/patternlab-scaffolding/blob/master/bower.json) you'll find an example.
