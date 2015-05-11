@@ -22,7 +22,7 @@
 // /*------------------------------------*\
 //     #TOOLS
 // \*------------------------------------*/
-@import "tools/*.*";
+@import "_IMPORTS/_tools.imports";
 @import "inuit-functions/_tools.functions";
 @import "inuit-mixins/_tools.mixins";
 @import "inuit-responsive-tools/_tools.responsive";
@@ -54,7 +54,7 @@
 @import "inuit-paragraphs/_base.paragraphs";
 @import "inuit-lists/_base.lists";
 @import "inuit-images/_base.images";
-@import "base/*.*";
+@import "_IMPORTS/_base.imports";
 
 
 
@@ -79,7 +79,7 @@
 // @import "inuit-tables/_objects.tables";
 // @import "inuit-tabs/_objects.tabs";
 // @import "inuit-text-input/_objects.text-input";
-@import "objects/*.*";
+@import "_IMPORTS/_objects.imports";
 
 
 
@@ -88,7 +88,7 @@
 // /*------------------------------------*\
 //     #COMPONENTS
 // \*------------------------------------*/
-@import "components/*.*";
+@import "_IMPORTS/_components.imports";
 
 
 
@@ -97,7 +97,7 @@
 // /*------------------------------------*\
 //     #PLUGINS
 // \*------------------------------------*/
-@import "plugins/*.*";
+@import "_IMPORTS/_plugins.imports";
 
 
 
@@ -125,7 +125,7 @@
 // @import "inuit-responsive-text-align/_trumps.helper.text-align-responsive";
 // @import "inuit-hide/_trumps.hide";
 @import "inuit-print/_trumps.print";
-@import "trumps/*.*";
+@import "_IMPORTS/_trumps.imports";
 
 
 
