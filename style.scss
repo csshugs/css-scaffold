@@ -9,11 +9,11 @@
 // /*------------------------------------*\
 //     #SETTINGS
 // \*------------------------------------*/
-@import "settings/_colors";
-@import "settings/_typography";
+@import "settings/colors";
+@import "settings/typography";
 
-@import "inuit-defaults/_settings.defaults";
-@import "inuit-responsive-settings/_settings.responsive";
+@import "inuit-defaults/settings.defaults";
+@import "inuit-responsive-settings/settings.responsive";
 
 
 
@@ -22,13 +22,13 @@
 // /*------------------------------------*\
 //     #TOOLS
 // \*------------------------------------*/
-@import "_IMPORTS/_tools.imports";
-@import "inuit-functions/_tools.functions";
-@import "inuit-mixins/_tools.mixins";
-@import "inuit-responsive-tools/_tools.responsive";
-@import "inuit-tools-widths/_tools.widths";
-@import "inuit-tools-push/_tools.push";
-@import "inuit-tools-pull/_tools.pull";
+@import "_IMPORTS/tools.imports";
+@import "inuit-functions/tools.functions";
+@import "inuit-mixins/tools.mixins";
+@import "inuit-responsive-tools/tools.responsive";
+@import "inuit-tools-widths/tools.widths";
+@import "inuit-tools-push/tools.push";
+@import "inuit-tools-pull/tools.pull";
 
 
 
@@ -37,10 +37,10 @@
 // /*------------------------------------*\
 //     #GENERIC
 // \*------------------------------------*/
-@import "inuit-box-sizing/_generic.box-sizing";
-@import "inuit-normalize/_generic.normalize";
-@import "inuit-reset/_generic.reset";
-@import "inuit-shared/_generic.shared";
+@import "inuit-box-sizing/generic.box-sizing";
+@import "inuit-normalize/generic.normalize";
+@import "inuit-reset/generic.reset";
+@import "inuit-shared/generic.shared";
 
 
 
@@ -49,12 +49,12 @@
 // /*------------------------------------*\
 //     #BASE
 // \*------------------------------------*/
-@import "inuit-page/_base.page";
-@import "inuit-headings/_base.headings";
-@import "inuit-paragraphs/_base.paragraphs";
-@import "inuit-lists/_base.lists";
-@import "inuit-images/_base.images";
-@import "_IMPORTS/_base.imports";
+@import "inuit-page/base.page";
+@import "inuit-headings/base.headings";
+@import "inuit-paragraphs/base.paragraphs";
+@import "inuit-lists/base.lists";
+@import "inuit-images/base.images";
+@import "_IMPORTS/base.imports";
 
 
 
@@ -63,23 +63,23 @@
 // /*------------------------------------*\
 //     #OBJECTS
 // \*------------------------------------*/
-// @import "inuit-block/_objects.block";
-// @import "inuit-box/_objects.box";
-// @import "inuit-buttons/_objects.buttons";
-// @import "inuit-flag/_objects.flag";
-// @import "inuit-layout/_objects.layout";
-// @import "inuit-list-bare/_objects.list-bare";
-// @import "inuit-list-block/_objects.list-block";
-// @import "inuit-list-inline/_objects.list-inline";
-// @import "inuit-list-ui/_objects.list-ui";
-// @import "inuit-media/_objects.media";
-// @import "inuit-pack/_objects.pack";
-// @import "inuit-page-wrap/_objects.page-wrap";
-// @import "inuit-split/_objects.split";
-// @import "inuit-tables/_objects.tables";
-// @import "inuit-tabs/_objects.tabs";
-// @import "inuit-text-input/_objects.text-input";
-@import "_IMPORTS/_objects.imports";
+// @import "inuit-block/objects.block";
+// @import "inuit-box/objects.box";
+// @import "inuit-buttons/objects.buttons";
+// @import "inuit-flag/objects.flag";
+// @import "inuit-layout/objects.layout";
+// @import "inuit-list-bare/objects.list-bare";
+// @import "inuit-list-block/objects.list-block";
+// @import "inuit-list-inline/objects.list-inline";
+// @import "inuit-list-ui/objects.list-ui";
+// @import "inuit-media/objects.media";
+// @import "inuit-pack/objects.pack";
+// @import "inuit-page-wrap/objects.page-wrap";
+// @import "inuit-split/objects.split";
+// @import "inuit-tables/objects.tables";
+// @import "inuit-tabs/objects.tabs";
+// @import "inuit-text-input/objects.text-input";
+@import "_IMPORTS/objects.imports";
 
 
 
@@ -88,7 +88,7 @@
 // /*------------------------------------*\
 //     #COMPONENTS
 // \*------------------------------------*/
-@import "_IMPORTS/_components.imports";
+@import "_IMPORTS/components.imports";
 
 
 
@@ -97,7 +97,7 @@
 // /*------------------------------------*\
 //     #PLUGINS
 // \*------------------------------------*/
-@import "_IMPORTS/_plugins.imports";
+@import "_IMPORTS/plugins.imports";
 
 
 
@@ -106,26 +106,26 @@
 // /*------------------------------------*\
 //     #TRUMPS
 // \*------------------------------------*/
-@import "inuit-clearfix/_trumps.clearfix";
-@import "inuit-headings-trumps/_trumps.headings";
-@import "inuit-smallprint/_trumps.smallprint";
-@import "inuit-widths/_trumps.widths";
-@import "inuit-widths-responsive/_trumps.widths-responsive";
-// @import "inuit-pull/_trumps.pull";
-// @import "inuit-responsive-pull/_trumps.pull-responsive";
-// @import "inuit-push/_trumps.push";
-// @import "inuit-responsive-push/_trumps.push-responsive";
-@import "inuit-spacing/_trumps.spacing";
-@import "inuit-spacing-responsive/_trumps.spacing-responsive";
-// @import "inuit-float/_trumps.helper.float";
-// @import "inuit-responsive-float/_trumps.helper.float-responsive";
-// @import "inuit-font-weight/_trumps.helper.font-weight";
-// @import "inuit-responsive-font-weight/_trumps.helper.font-weight-responsive";
-// @import "inuit-text-align/_trumps.helper.text-align";
-// @import "inuit-responsive-text-align/_trumps.helper.text-align-responsive";
-// @import "inuit-hide/_trumps.hide";
-@import "inuit-print/_trumps.print";
-@import "_IMPORTS/_trumps.imports";
+@import "inuit-clearfix/trumps.clearfix";
+@import "inuit-headings-trumps/trumps.headings";
+@import "inuit-smallprint/trumps.smallprint";
+@import "inuit-widths/trumps.widths";
+@import "inuit-widths-responsive/trumps.widths-responsive";
+// @import "inuit-pull/trumps.pull";
+// @import "inuit-responsive-pull/trumps.pull-responsive";
+// @import "inuit-push/trumps.push";
+// @import "inuit-responsive-push/trumps.push-responsive";
+@import "inuit-spacing/trumps.spacing";
+@import "inuit-spacing-responsive/trumps.spacing-responsive";
+// @import "inuit-float/trumps.helper.float";
+// @import "inuit-responsive-float/trumps.helper.float-responsive";
+// @import "inuit-font-weight/trumps.helper.font-weight";
+// @import "inuit-responsive-font-weight/trumps.helper.font-weight-responsive";
+// @import "inuit-text-align/trumps.helper.text-align";
+// @import "inuit-responsive-text-align/trumps.helper.text-align-responsive";
+// @import "inuit-hide/trumps.hide";
+@import "inuit-print/trumps.print";
+@import "_IMPORTS/trumps.imports";
 
 
 
