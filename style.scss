@@ -9,9 +9,6 @@
 // /*------------------------------------*\
 //     #SETTINGS
 // \*------------------------------------*/
-@import "settings/colors";
-@import "settings/typography";
-
 @import "inuit-defaults/settings.defaults";
 @import "inuit-responsive-settings/settings.responsive";
 
@@ -22,13 +19,11 @@
 // /*------------------------------------*\
 //     #TOOLS
 // \*------------------------------------*/
-@import "_IMPORTS/tools.imports";
+@import "tools/aliases";
 @import "inuit-functions/tools.functions";
 @import "inuit-mixins/tools.mixins";
 @import "inuit-responsive-tools/tools.responsive";
 @import "inuit-tools-widths/tools.widths";
-@import "inuit-tools-push/tools.push";
-@import "inuit-tools-pull/tools.pull";
 
 
 
@@ -54,7 +49,6 @@
 @import "inuit-paragraphs/base.paragraphs";
 @import "inuit-lists/base.lists";
 @import "inuit-images/base.images";
-@import "_IMPORTS/base.imports";
 
 
 
@@ -79,7 +73,6 @@
 // @import "inuit-tables/objects.tables";
 // @import "inuit-tabs/objects.tabs";
 // @import "inuit-text-input/objects.text-input";
-@import "_IMPORTS/objects.imports";
 
 
 
@@ -88,7 +81,6 @@
 // /*------------------------------------*\
 //     #COMPONENTS
 // \*------------------------------------*/
-@import "_IMPORTS/components.imports";
 
 
 
@@ -97,7 +89,6 @@
 // /*------------------------------------*\
 //     #PLUGINS
 // \*------------------------------------*/
-@import "_IMPORTS/plugins.imports";
 
 
 
@@ -111,21 +102,9 @@
 @import "inuit-smallprint/trumps.smallprint";
 @import "inuit-widths/trumps.widths";
 @import "inuit-widths-responsive/trumps.widths-responsive";
-// @import "inuit-pull/trumps.pull";
-// @import "inuit-responsive-pull/trumps.pull-responsive";
-// @import "inuit-push/trumps.push";
-// @import "inuit-responsive-push/trumps.push-responsive";
 @import "inuit-spacing/trumps.spacing";
 @import "inuit-spacing-responsive/trumps.spacing-responsive";
-// @import "inuit-float/trumps.helper.float";
-// @import "inuit-responsive-float/trumps.helper.float-responsive";
-// @import "inuit-font-weight/trumps.helper.font-weight";
-// @import "inuit-responsive-font-weight/trumps.helper.font-weight-responsive";
-// @import "inuit-text-align/trumps.helper.text-align";
-// @import "inuit-responsive-text-align/trumps.helper.text-align-responsive";
-// @import "inuit-hide/trumps.hide";
 @import "inuit-print/trumps.print";
-@import "_IMPORTS/trumps.imports";
 
 
 
